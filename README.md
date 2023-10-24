@@ -1,6 +1,6 @@
 # __Telegram-bot - Mak_Gripe_bot__
 ***
-## I present to your attention my author's project of the Telegram-bot [@Mak-Gripe-bot](https://t.me/Mak_Gripe_bot), which has a wide range of versatile functions that help automate the conduct of any business among Telegram messenger users. The bot not only simplifies business processes, but completely saves the time of an entrepreneur or a sales manager by depriving them of the need to perform routine tasks, starting from accepting an application from the buyer and ending with accepting payment for goods.
+## I present to your attention my author's project of the Telegram-bot [Mak-Gripe-bot](https://t.me/Mak_Gripe_bot), which has a wide range of versatile functions that help automate the conduct of any business among Telegram messenger users. The bot not only simplifies business processes, but completely saves the time of an entrepreneur or a sales manager by depriving them of the need to perform routine tasks, starting from accepting an application from the buyer and ending with accepting payment for goods.
 ***
 Example of the above project was a potential car tire and disc store, where the entrepreneur showed a desire to bring his business online. The technical specification of such a project sets the following tasks for the developer-executor:
 - Automatic publications on the main Telegram channel of the product card with its detailed description and image, which are automatically deleted when the product is sold out.
@@ -13,5 +13,5 @@ Example of the above project was a potential car tire and disc store, where the 
 - The "Хочу подобрать товар!" button helps in the case when a client needs to pick up a product according to certain characteristics (radius, width, diameter, etc.), after which the bot outputs all the options from SQLite databases with Inline buttons, and when pressed, full product data is displayed to him.
 - The bot also has automatic verification of all data entered by the client when making an application, where if they make an error when entering a Telegram nickname, the application will not be processed. There is also a counter for the number of goods left after leaving the application, as a reservation, so that the administrator can always track how many goods are left.
 ***
-## Mak-Gripe-bot was basically created using the aiogram library, as well as auxiliary ones such as sqlite3, asyncio, datetime, re, etc.
+### Mak-Gripe-bot was basically created using the aiogram library, as well as auxiliary ones such as sqlite3, asyncio, datetime, re, etc.
 [Link to the Telegram-bot](https://t.me/Mak_Gripe_bot)
