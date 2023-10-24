@@ -17,7 +17,7 @@ bot = Bot(token_API)
 dp = Dispatcher(bot=bot,
                 storage=storage)
 
-con = sqlite3.connect('C:\\Users\\nastm\\OneDrive\\Рабочий стол\\Python\\Mak_Gripe_bot\\sql\\database.db')
+con = sqlite3.connect('Mak_Gripe_bot\\sql\\database.db')
 cur = con.cursor()
 
 
