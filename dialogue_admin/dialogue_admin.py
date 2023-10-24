@@ -38,7 +38,7 @@ async def create_post(message: types.Message) -> None:
 
 
 async def all_applications(message: types.Message) -> None:
-    con = sqlite3.connect('C:\\Users\\nastm\\OneDrive\\Рабочий стол\\Python\\Mak_Gripe_bot\\sql\\database.db')
+    con = sqlite3.connect('Mak_Gripe_bot\\sql\\database.db')
     with con:
         cur = con.cursor()
         send_all_applications = cur.execute('SELECT * from applications').fetchall()
