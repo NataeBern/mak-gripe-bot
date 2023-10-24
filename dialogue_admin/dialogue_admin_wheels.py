@@ -240,7 +240,7 @@ async def save_number_of_sets_wheels(message: types.Message, state: FSMContext) 
                                            f'Если хочешь купить именно этот товар, то переходи по ссылке, '
                                            f'написав нашему Telegram-боту - <a href="{bot_URL}">Mak_Gripe_bot</a>',
                                    parse_mode='HTML')
-        con = sqlite3.connect('C:\\Users\\nastm\\OneDrive\\Рабочий стол\\Python\\Mak_Gripe_bot\\sql\\database.db')
+        con = sqlite3.connect('Mak_Gripe_bot\\sql\\database.db')
         with con:
             cur = con.cursor()
             cur.execute(
