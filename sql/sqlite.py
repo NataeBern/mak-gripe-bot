@@ -7,7 +7,7 @@ import random
 list_random_article = list(range(10000000, 99999999))
 random_article = random.randint(10000000, len(list_random_article) - 1)
 
-db = sq.connect('C:\\Users\\nastm\\OneDrive\\Рабочий стол\\Python\\Mak_Gripe_bot\\sql\\database.db')
+db = sq.connect('Mak_Gripe_bot\\sql\\database.db')
 cur = db.cursor()
 
 
