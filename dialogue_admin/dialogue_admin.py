@@ -2,8 +2,8 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher.filters import Text
 
-from Python.Mak_Gripe_bot.auxiliary_files.config import token_API, ADMIN
-from Python.Mak_Gripe_bot.keyboards.kb import kb_products, kb_menu_admin, kb_menu
+from auxiliary_files.config import token_API, ADMIN
+from keyboards.kb import kb_products, kb_menu_admin, kb_menu
 
 import sqlite3
 
