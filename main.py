@@ -3,8 +3,8 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 import logging
 
-from Python.Mak_Gripe_bot.auxiliary_files.config import token_API
-from Python.Mak_Gripe_bot.sql.sqlite import db_start
+from auxiliary_files.config import token_API
+from sql.sqlite import db_start
 
 
 
@@ -29,12 +29,12 @@ async def on_startup(_):
 
     await db_start()
 
-    from Python.Mak_Gripe_bot.dialogue_admin.dialogue_admin import register_handlers_dialogue_admin
-    from Python.Mak_Gripe_bot.dialogue_admin.dialogue_admin_tires import register_handlers_dialogue_admin_tires
-    from Python.Mak_Gripe_bot.dialogue_admin.dialogue_admin_wheels import register_handlers_dialogue_admin_wheels
-    from Python.Mak_Gripe_bot.dialogue_others.dialogue_others_buy_product import register_handlers_dialogue_others_buy_pr
-    from Python.Mak_Gripe_bot.dialogue_others.dialogue_others_puck_up_product import register_handlers_dialogue_others_pick_up_pr
-    from Python.Mak_Gripe_bot.moderation.moderation import register_handlers_moderation
+    from dialogue_admin.dialogue_admin import register_handlers_dialogue_admin
+    from dialogue_admin.dialogue_admin_tires import register_handlers_dialogue_admin_tires
+    from dialogue_admin.dialogue_admin_wheels import register_handlers_dialogue_admin_wheels
+    from dialogue_others.dialogue_others_buy_product import register_handlers_dialogue_others_buy_pr
+    from dialogue_others.dialogue_others_puck_up_product import register_handlers_dialogue_others_pick_up_pr
+    from moderation.moderation import register_handlers_moderation
 
     register_handlers_dialogue_admin(dp=dp)
     register_handlers_dialogue_admin_tires(dp=dp)
