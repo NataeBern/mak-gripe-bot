@@ -5,9 +5,9 @@ from datetime import timedelta
 
 import asyncio
 
-from Python.Mak_Gripe_bot.keyboards.kb import menu_subcride
-from Python.Mak_Gripe_bot.moderation.forbidden_words import WORDS
-from Python.Mak_Gripe_bot.auxiliary_files.config import token_API, chanel_URL, chanel_ID, chat_ID, bot_URL
+from keyboards.kb import menu_subcride
+from moderation.forbidden_words import WORDS
+from auxiliary_files.config import token_API, chanel_URL, chanel_ID, chat_ID, bot_URL
 
 
 
