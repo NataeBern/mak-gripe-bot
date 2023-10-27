@@ -1,7 +1,7 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton
 from aiogram.utils.callback_data import CallbackData
 
-from Python.Mak_Gripe_bot.auxiliary_files.config import chanel_URL
+from auxiliary_files.config import chanel_URL
 
 
 
