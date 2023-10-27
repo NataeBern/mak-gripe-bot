@@ -4,9 +4,8 @@ from aiogram.dispatcher.filters import Text
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 
-from Python.Mak_Gripe_bot.auxiliary_files.config import token_API
-from Python.Mak_Gripe_bot.keyboards.kb import cb_pick_up, kb_products_pick_up, kb_tire_parameters, kb_menu, \
-    kb_wheels_parameters
+from auxiliary_files.config import token_API
+from keyboards.kb import cb_pick_up, kb_products_pick_up, kb_tire_parameters, kb_menu, kb_wheels_parameters
 
 import sqlite3
 
