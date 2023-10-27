@@ -4,9 +4,9 @@ from aiogram.dispatcher.filters import Text
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 
-from Python.Mak_Gripe_bot.auxiliary_files.config import token_API, chanel_URL, provider_token, ADMIN, chanel_ID
-from Python.Mak_Gripe_bot.keyboards.kb import cb, kb_menu, kb_cancel, kb_application, kb_type_product
-from Python.Mak_Gripe_bot.sql.sqlite import create_application, edit_application
+from auxiliary_files.config import token_API, chanel_URL, provider_token, ADMIN, chanel_ID
+from keyboards.kb import cb, kb_menu, kb_cancel, kb_application, kb_type_product
+from sql.sqlite import create_application, edit_application
 
 import re
 from datetime import datetime
